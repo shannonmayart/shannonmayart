@@ -1,5 +1,35 @@
+main-wrap{
+       background-image: url("theme/files/semicircle.png");
+    background-repeat: no-repeat;
+    background-position:center top;
+     background-size: 140% 800px;
+}
+
+wsite-multicol-tbody{
+   //* table-layout:fixed;
+    width:1280px;*//
+}
+
+.topparagraph_home{
+    width:1000px;
+    height:85vh;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+ 
+    overflow:visible;
+   
+        
+}
+
 h2.wsite-content-title2{
     color:aliceblue !important;
+    line-height: 55px !important;
+}
+
+.paragraph2{
+    color:aliceblue;
+    width:80%;
 }
 
 
@@ -127,10 +157,10 @@ html {
 body {
     width: 100%;
     height: 100%;
-    background-image: url("theme/files/semicircle.png"), url("theme/files/gamebg_reversegreen.jpg");
+   //* background-image: url("theme/files/semicircle.png"), url("theme/files/gaminggreendark.jpg"); *//
     background-repeat: no-repeat, repeat;
     background-position: center top;
-    background-size: 2543px 750px, 100%;
+    background-size: 140% 800px, 100%;
     color: #000000;
     font-family: 'Birdseye', sans-serif;
     font-size: 16px;
