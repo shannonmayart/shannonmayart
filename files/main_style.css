@@ -125,6 +125,10 @@ margin:-1.2em;}
       flex: 50%;
       max-width: 50%;
     }
+    
+    
+    
+   
 }
 
 
@@ -136,6 +140,8 @@ margin:-1.2em;}
         flex: 25%;
       max-width: 25%;
     }
+    
+   
 }
 
 /* gallery end */
@@ -156,6 +162,7 @@ br {
     color:#133c54;
      line-height:0.6;
     width: max-content;
+    padding-top:10px;
          
     
 }
@@ -201,6 +208,7 @@ h2.wsite-content-title2{
     line-height: 1.75;
     margin: 3em auto 3em;
     text-align: center;
+    height:100vh;
     
 }
 
