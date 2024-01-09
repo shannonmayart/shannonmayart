@@ -2120,7 +2120,7 @@ h2#wsite-com-product-title {
     }*//
 
     
-    body{
+    body,html{
         width:100%;
         overflow-x:hidden;
     }
