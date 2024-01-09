@@ -162,7 +162,7 @@ br {
     color:#133c54;
      line-height:0.6;
     width: max-content;
-    padding-top:10px;
+    padding-top:30px;
          
     
 }
@@ -1782,6 +1782,9 @@ h2#wsite-com-product-title {
         transform: rotate(135deg);
     }
 
+    .wrapper{
+        width:100%;
+    }
     body.splash-page.nav-open .wrapper .main-wrap {
         position: relative;
     }
