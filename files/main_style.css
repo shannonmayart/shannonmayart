@@ -2107,81 +2107,22 @@ h2#wsite-com-product-title {
 
     
 
-    //*td.wsite-multicol-col {
+    td.wsite-multicol-col {
         float: none;
         display: block;
         height: auto;
         width: 100% !important;
         box-sizing: border-box;
-    }*//
+    }
 
     
-    
-
-    #wsite-search-sidebar {
-        position: relative;
-        z-index: 6;
-        overflow-y: hidden;
-        width: 100%;
-        max-height: 35px;
-        padding: 0;
-        box-sizing: border-box;
-        -webkit-transition: all 500ms ease-in-out;
-        -moz-transition: all 500ms ease-in-out;
-        -ms-transition: all 500ms ease-in-out;
-        transition: all 500ms ease-in-out;
+    body{
+        width:100%;
+        overflow-x:hidden;
     }
 
-    #wsite-search-sidebar:before {
-        display: block;
-        width: 100%;
-        padding: 10px 18px;
-        box-sizing: border-box;
-        text-align: center;
-        text-transform: uppercase;
-        content: 'VIEW SEARCH FILTERS\00a0\00a0\25be';
-        font-weight: 700;
-        cursor: pointer;
-    }
+   
 
-    #wsite-search-sidebar.sidebar-expanded {
-        max-height: 1000px;
-        cursor: default !important;
-    }
-
-    #wsite-search-sidebar.sidebar-expanded:before {
-        content: 'CLOSE\00a0\00a0\25b4';
-    }
-
-    #wsite-search-sidebar .wsite-search-facet-price input {
-        width: 100%;
-        margin: 10px 0;
-        padding: 6px !important;
-    }
-
-    #wsite-search-header h2 {
-        width: 100%;
-        margin-bottom: 10px;
-        font-size: 1.6em;
-    }
-
-    #wsite-search-form-container {
-        float: none;
-        width: 100%;
-    }
-
-    #wsite-search-query {
-        padding: 2px 10px;
-    }
-
-    #wsite-search-results {
-        width: 100%;
-    }
-
-    #wsite-search-product-results .wsite-search-product-result {
-        width: 100%;
-        padding-right: 0;
-    }
 }
 
 @media screen and (max-width: 480px) {
