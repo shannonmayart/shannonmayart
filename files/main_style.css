@@ -154,7 +154,9 @@ br {
     font-family: "Roboto",sans-serif;
     font-weight:900;
     color:#133c54;
-     line-height:0.6
+     line-height:0.6;
+    width: max-content;
+         
     
 }
 
@@ -191,6 +193,16 @@ h2.wsite-content-title2{
     width:80%;
 }
 
+.paragraph3{
+    color:aliceblue;
+    width:80%;
+    font-size: 20px !important;
+    font-weight: 300;
+    line-height: 1.75;
+    margin: 3em auto 3em;
+    text-align: center;
+    
+}
 
 
 ul,
@@ -680,6 +692,12 @@ div.paragraph {
 .nav li:not(.wsite-nav-cart)#active > .wsite-menu-item {
     border-color: aliceblue;
 }
+#pg497696655286110906 {
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 20px;
+}
 
 .nav li .wsite-menu-item:hover {
     opacity: 0.6;
@@ -1162,7 +1180,7 @@ body:not(.wsite-editor).fade-in .desktop-nav {
 
 .wsite-social-item {
     display: inline-block;
-    font-size: 20px;
+    font-size: 50px;
     margin: 5px;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
