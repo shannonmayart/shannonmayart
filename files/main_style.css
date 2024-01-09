@@ -2071,7 +2071,7 @@ h2#wsite-com-product-title {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1300px) {
     font[size="1"] {
         font-size: 50% !important;
     }
@@ -2105,13 +2105,16 @@ h2#wsite-com-product-title {
     }
 
 
-    
+    topparagraph_home{
+        width:30%;
+    }
 
     td.wsite-multicol-col {
-        float: none;
+        float:center;
+        text-align: center;
         display: block;
         height: auto;
-        width: 100% !important;
+        width: 60% !important;
         box-sizing: border-box;
     }
 
@@ -2120,6 +2123,9 @@ h2#wsite-com-product-title {
         width:100%;
         overflow-x:hidden;
     }
+    
+    
+     .makeinvisible{display: none;}
 
    
 
@@ -2127,7 +2133,7 @@ h2#wsite-com-product-title {
 
 @media screen and (max-width: 480px) {
     
-    .makeinvisible{visibility: hidden;}
+    .makeinvisible{display: none;}
     
     .container_gallerytitle{
     font-size:3em;
