@@ -2125,6 +2125,9 @@ h2#wsite-com-product-title {
         overflow-x:hidden;
     }
     
+    wrapper
+    { overflow-x:hidden;}
+    
     body{
         width:100%;
       
