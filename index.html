@@ -294,12 +294,13 @@
     </style>
 
     <script src='https://shannonmayart.github.io/shannonmayart/files/theme/files/templateArtifacts.js'></script>
+    <script async="" src="https://shannonmayart.github.io/shannonmayart/files/theme/files/snowday262.js"></script>
     <script>
         var STATIC_BASE = '//cdn1.editmysite.com/';
         var ASSETS_BASE = '//cdn2.editmysite.com/';
         var STYLE_PREFIX = 'wsite';
     </script>
-    <script src='https://cdn2.editmysite.com/js/jquery-1.8.3.min.js'></script>
+    <script src='https://shannonmayart.github.io/shannonmayart/files/theme/files/jquery-1.8.3.min.js'></script>
 
     <script type="text/javascript" src="files/theme/files/stl.js"></script>
     <script src="files/theme/files/main.js"></script>
@@ -397,9 +398,18 @@
     </script>
     <script type="text/javascript">
         _W = _W || {};
-        _W.securePrefix = 'UNSET';
+        _W.securePrefix = 'www.shannonmay.co.uk';
     </script>
-
+    <script>_W = _W || {};
+			_W.customerLocale = "en_US";
+			_W.storeName = null;
+			_W.isCheckoutReskin = false;
+			_W.storeCountry = "GB";
+			_W.storeCurrency = "GBP";
+			_W.storeEuPrivacyPolicyUrl = "";
+			com_currentSite = "917303710141226098";
+			com_userID = "147854357";
+</script>
     <script type="text/javascript">
         _W.configDomain = "www.weebly.com";
     </script>
@@ -412,7 +422,7 @@
             
             
         var IS_ARCHIVE = 1;
-
+<!--
         function initFlyouts() {
             initPublishedFlyoutMenus(
                 [{
@@ -425,14 +435,7 @@
                     }, {
                         "id": "497696655286110902",
                         "title": "Contact",
-                        "url": "contact.html",
-                        "target": "",
-                        "nav_menu": false,
-                        "nonclickable": false
-                    }, {
-                        "id": "497696655286110903",
-                        "title": "Contact",
-                        "url": "contact.html",
+                        "url": "#Contact",
                         "target": "",
                         "nav_menu": false,
                         "nonclickable": false
@@ -466,7 +469,7 @@
             )
         }
         
-
+//-->
        
     </script>
 
@@ -481,9 +484,9 @@
             sz.parentNode.insertBefore(z, sz)
         }(document, "script", "zb-embed-code"));
     </script>
+<script async src="//static.zotabox.com/0/d/0dc234baa4c692f508df313efffbee30/widgets.js"></script>
 
-
-    <script type="text/javascript">
+   <!-- <script type="text/javascript">
         $(document).ready(function() {
             $(document).on("scroll", onScroll);
 
@@ -522,7 +525,16 @@
                 }
             });
         }
-    </script>
+    </script> -->
+    <script>
+            $('.wsite-menu-item').on('click', function() {
+    if (!$('body').hasClass('nav-open')) {
+        $('body').removeClass('nav-open');
+    } else {
+        $('body').removeClass('nav-open');
+    }
+});
+</script>
 
 
 
@@ -1583,27 +1595,36 @@
     </div>--><!-- end footer-wrap -->
     <!-- /.wrapper -->
         </div>
+        
     <div id="navMobile" class="nav mobile-nav">
         <a class="hamburger" aria-label="Menu" href="#"><span></span></a>
         <ul class="wsite-menu-default">
-            <li id="active" class="wsite-menu-item-wrap">
-                <a href="index.html" class="wsite-menu-item">
-                    Home
-                </a>
+              <li id="pg497696655286110904" class="wsite-menu-item-wrap">
+                                <a href="#MoreDesign" class="wsite-menu-item">
+                                    Design
+                                </a>
 
-            </li>
-            <li id="pg379465866213495214" class="wsite-menu-item-wrap">
-                <a href="about.html" class="wsite-menu-item">
-                    About
-                </a>
+                            </li>
 
-            </li>
-            <li id="pg497696655286110902" class="wsite-menu-item-wrap">
-                <a href="contact.html" class="wsite-menu-item">
-                    Contact
-                </a>
+                            <li id="pg497696655286110905" class="wsite-menu-item-wrap">
+                                <a href="#Art" class="wsite-menu-item">
+                                    Art
+                                </a>
 
-            </li>
+                            </li>
+
+                            <li id="pg497696655286110902" class="wsite-menu-item-wrap">
+                                <a href="#Contact" class="wsite-menu-item">
+                                    Contact
+                                </a>
+
+                            </li>
+                            <li id="pg497696655286110906" class="wsite-menu-item-wrap">
+                                <a href="#GoToTop" class="wsite-menu-item">
+                                    Back to Top
+                                </a>
+
+                            </li>
         </ul>
     </div>
         </div>
