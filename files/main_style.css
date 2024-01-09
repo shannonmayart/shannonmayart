@@ -1476,210 +1476,15 @@ h2#wsite-com-product-title {
     line-height: 1.25;
 }
 
-#wsite-mini-cart .wsite-product-list .wsite-product-price {
-    padding-right: 0;
-}
 
-#wsite-mini-cart .wsite-product-option {
-    font-family: 'Birdseye', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-}
 
-#wsite-mini-cart .wsite-subtotal-wrapper {
-    vertical-align: middle;
-}
 
-#wsite-mini-cart .wsite-subtotal-wrapper span {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px !important;
-    margin-right: 5px;
-}
 
-#wsite-mini-cart .wsite-subtotal-wrapper span.wsite-price {
-    font-size: 14px !important;
-    font-weight: 900;
-}
 
-#wsite-mini-cart .wsite-remove-button {
-    background: none !important;
-    font-family: 'Montserrat', sans-serif;
-    height: auto;
-    width: 100%;
-    clear: both;
-    float: none;
-    cursor: pointer;
-    color: #DD5857;
-    font-size: 12px;
-    text-align: right;
-    margin-top: 0;
-    margin-right: 0;
-}
-
-#blogTable .blog-post .blog-header h2.blog-title {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 10px !important;
-}
-
-#blogTable .blog-post .blog-separator {
-    margin: 0 auto 30px;
-    border: none;
-}
-
-#blogTable .blog-sidebar {
-    width: 250px;
-}
-
-#blogTable .blog-sidebar h2 {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-#blogTable .blog-sidebar div.paragraph {
-    font-size: 14px;
-}
-
-#blogTable .blog-sidebar p {
-    font-size: 14px;
-}
-
-#blogTable #commentArea #commentAreaTitle,
-#blogTable #commentArea #commentReplyTitle,
-#blogTable #commentArea .blogCommentText div.paragraph,
-#blogTable #commentArea .blog-sidebar h2 {
-    padding: 0;
-    font-family: inherit;
-}
-
-#blogTable #commentArea #commentAreaTitle,
-#blogTable #commentArea #commentReplyTitle,
-#blogTable #commentArea .blogCommentText p,
-#blogTable #commentArea .blog-sidebar h2 {
-    padding: 0;
-    font-family: inherit;
-}
-
-#blogTable .blogCommentWrap {
-    padding-top: 20px;
-    border-top: 1px solid rgba(0, 0, 0, 0.4);
-    background: none;
-}
-
-#blogTable .blogCommentWrap .blogCommentAuthor,
-#blogTable .blogCommentWrap .blogCommentHeading,
-#blogTable .blogCommentWrap .blogCommentHeadingInner {
-    background: none !important;
-}
-
-#blogTable .blogCommentWrap .blogCommentAuthor {
-    margin-bottom: 10px;
-}
-
-#blogTable .blogCommentWrap .blogCommentAuthor span.name,
-#blogTable .blogCommentWrap .blogCommentAuthor span.email {
-    color: #000000 !important;
-    float: none;
-    line-height: 1;
-}
-
-#blogTable .blogCommentWrap .blogCommentHeading {
-    padding: 0;
-    margin-bottom: 20px;
-}
-
-#blogTable .blogCommentWrap .blogCommentHeading .blogCommentHeadingInner {
-    height: auto;
-}
-
-#blogTable .blogCommentWrap .blogCommentHeading .blogCommentAuthor,
-#blogTable .blogCommentWrap .blogCommentHeading .blogCommentDate {
-    float: none;
-    text-align: left;
-    height: auto;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    line-height: 1;
-    letter-spacing: 0.03em;
-    padding: 0;
-}
-
-#blogTable .blogCommentWrap .blogCommentHeading .blogCommentAuthor {
-    text-transform: uppercase;
-}
-
-#blogTable .blogCommentWrap .blogCommentHeading .blogCommentDate {
-    color: #333;
-}
-
-#blogTable .blogCommentWrap .blogCommentText {
-    padding: 0;
-}
-
-#blogTable .blogCommentWrap .blogCommentText div.paragraph {
-    color: #000000;
-    font-size: 12px;
-}
-
-#blogTable .blogCommentWrap .blogCommentText p {
-    color: #000000;
-    font-size: 12px;
-}
-
-.blogCommentReplyWrapper iframe {
-    height: 560px !important;
-}
-
-#commentPostDiv .field input[type=text],
-#commentPostDiv .field textarea {
-    height: auto;
-    padding: 8px 12px;
-    background: transparent;
-    box-sizing: border-box;
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    transition: all 300ms ease;
-}
-
-#commentPostDiv .field input[type=text]:focus,
-#commentPostDiv .field textarea:focus {
-    background-color: rgba(0, 0, 0, 0.05);
-    border: 1px solid rgba(0, 0, 0, 0.4);
-}
-
-.blogCommentSubreplyWrapper div.iframeWrapper {
-    background: none;
-    border: none;
-}
-
-.blog-button {
-    height: auto;
-    padding: 10px 20px;
-    background-image: none;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    line-height: 1;
-    text-transform: uppercase;
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    transition: all 300ms ease;
-}
-
-.blog-button:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-.blog-button span {
-    background: none;
 }
 
 @media screen and (max-width: 992px) {
-    font[size="1"] {
+   /* font[size="1"] {
         font-size: 100% !important;
     }
 
@@ -1705,7 +1510,7 @@ h2#wsite-com-product-title {
 
     font[size="7"] {
         font-size: 100% !important;
-    }
+    }*/
 
     .container,
     .wsite-footer {
@@ -2071,8 +1876,8 @@ h2#wsite-com-product-title {
     }
 }
 
-@media screen and (max-width: 1300px) {
-    font[size="1"] {
+@media screen and (max-width: 800px) {
+   /* font[size="1"] {
         font-size: 50% !important;
     }
 
@@ -2098,7 +1903,7 @@ h2#wsite-com-product-title {
 
     font[size="7"] {
         font-size: 150% !important;
-    }
+    }*/
 
     .banner-wrap .banner h2 {
         font-size: 9vw;
@@ -2110,14 +1915,14 @@ h2#wsite-com-product-title {
         height:auto;
     }
 
-    //*td.wsite-multicol-col {
+    td.wsite-multicol-col {
         float:left;
         text-align: center;
         display: block;
         height: auto;
         width: 60% !important;
         box-sizing: border-box;
-    }*//
+    }
 
     
     body,html{
@@ -2135,6 +1940,47 @@ h2#wsite-com-product-title {
     }
     
      .makeinvisible{display: none;}
+
+   
+
+}
+
+@media screen and (max-width: 1350px) {
+   
+
+
+
+    /*td.wsite-multicol-col {
+        float:left;
+        text-align: center;
+        display: block;
+        height: auto;
+        width: 60% !important;
+        box-sizing: border-box;
+    }*/
+    
+    .main-wrap
+    {background-image: url("theme/files/semicircle.png");
+    background-repeat: no-repeat;
+    background-position:center top;
+     background-size: 250% 750px;}
+
+    
+    body,html{
+      
+        overflow-x:hidden;
+    }
+    
+    .wrapper
+    { overflow-x:hidden;
+    position: relative;}
+    
+    body{
+        width:100%;
+      
+    }
+    
+    
 
    
 
