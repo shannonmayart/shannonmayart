@@ -112,7 +112,7 @@
 }
 
 .text {
-    z-index: 2;
+   
     font-family: "Roboto",sans-serif;
     width:67%;
   color: white;
@@ -130,7 +130,7 @@
     font-weight: 500;
     font-size:2em;
     line-height: 1em;
-    z-index: 2;
+   
     
    
   
@@ -147,7 +147,7 @@
 border-radius: 1em;
     color: #133c54;
     display:inline-block;
-    z-index: 2;
+   
     margin:-0.5em;
 }
 
@@ -1685,7 +1685,7 @@ h2#wsite-com-product-title {
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 12;
+        
         display: block;
         overflow-x: hidden;
         overflow-y: auto;
@@ -1854,7 +1854,7 @@ h2#wsite-com-product-title {
         top: initial !important;
         bottom: 0px;
         left: 0 !important;
-        z-index: 9;
+        
         width: 100%;
         box-sizing: border-box;
         border: none;
