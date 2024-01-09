@@ -2107,16 +2107,17 @@ h2#wsite-com-product-title {
 
     topparagraph_home{
         width:30%;
+        height:auto;
     }
 
-    td.wsite-multicol-col {
-        float:center;
+    //*td.wsite-multicol-col {
+        float:left;
         text-align: center;
         display: block;
         height: auto;
         width: 60% !important;
         box-sizing: border-box;
-    }
+    }*//
 
     
     body{
