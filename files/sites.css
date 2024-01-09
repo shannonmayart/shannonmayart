@@ -2099,8 +2099,8 @@ button.wsite-button::-moz-focus-inner {
     display: inline-block;
     vertical-align: top;
     margin: 0 1px;
-    width: 24px;
-    height: 24px;
+    width: 200%;
+    height: 200%;
     background: url(/images/common/social_icons.png) no-repeat
 }
 
