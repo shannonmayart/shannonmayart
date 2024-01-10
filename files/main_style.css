@@ -123,15 +123,17 @@ margin : -0.5em;
 .footerbye {
 font-size : 0.7em;
 background-color : #ffffff;
-padding-top : 1em;
+padding-top : 0.5em;
 padding-right : 1em;
-padding-bottom : 1em;
+padding-bottom : 0.5em;
 padding-left : 1em;
-border-radius : 1em;
+border-radius : 2em;
 color : #133c54;
 display : inline-block;
 margin : -0.5em;
-    line-height: 0.7em;
+    font-size: 1.5em;
+    line-height: 1em;
+   
 }
 .gallerycaption {
 line-height : 1.2em;
