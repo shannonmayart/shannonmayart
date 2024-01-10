@@ -2019,7 +2019,7 @@ h2#wsite-com-product-title {
     z-index: 1;
     }
     
-    .text{}
+    .text{top: 90%;}
 }
 
 @media screen and (max-width: 480px) {
