@@ -175,7 +175,25 @@ nav.scrolled {
 
 
 
+   /* Tablet Styles */
+    @media only screen and (min-width: 481px) {
+        .column {
+            flex: 50%;
+            max-width: 50%;
+        }
 
+    }
+
+
+    /* Desktop Styles */
+    @media only screen and (min-width: 1024px) {
+        .column {
+            /*   flex: 33.3%;
+      max-width: calc(100%/3);*/
+            flex: 25%;
+            max-width: 25%;
+        }
+    }
 
 
 /* gallery end */
@@ -1704,25 +1722,7 @@ div.paragraph ol li {
 
     /*media queries*/
 
-    /* Tablet Styles */
-    @media only screen and (min-width: 481px) {
-        .column {
-            flex: 50%;
-            max-width: 50%;
-        }
-
-    }
-
-
-    /* Desktop Styles */
-    @media only screen and (min-width: 1024px) {
-        .column {
-            /*   flex: 33.3%;
-      max-width: calc(100%/3);*/
-            flex: 25%;
-            max-width: 25%;
-        }
-    }
+ 
 
     @media screen and (max-width: 992px) {
 
@@ -1923,6 +1923,5 @@ div.paragraph ol li {
 
 
         }
-
 
     }
