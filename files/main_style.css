@@ -1797,7 +1797,7 @@ div.paragraph ol li {
     }
 
 
-    topparagraph_home{
+    .topparagraph_home{
         width:100% !important;
         height:auto;
     }
@@ -1819,7 +1819,7 @@ div.paragraph ol li {
       
     }
     
-    wrapper
+    .wrapper
     { overflow-x:hidden;
     position: relative;}
     
