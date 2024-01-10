@@ -119,6 +119,20 @@ color : #133c54;
 display : inline-block;
 margin : -0.5em;
 }
+
+.footerbye {
+font-size : 0.7em;
+background-color : #ffffff;
+padding-top : 0.5em;
+padding-right : 0.8em;
+padding-bottom : 0.5em;
+padding-left : 0.8em;
+border-radius : 1em;
+color : #133c54;
+display : inline-block;
+margin : -0.5em;
+    line-height: 0.7em;
+}
 .gallerycaption {
 line-height : 1.2em;
 font-size : 1em;
@@ -1104,7 +1118,7 @@ right : 0;
 height : 100%;
 width : 100%;
 background : rgb(16, 43, 59, 1);
-mask-image : linear-gradient(transparent 0%, 60%, black 100%);
+mask-image : linear-gradient(transparent 0%, 40%, black 100%);
 z-index : 1;
 }
 .text {
@@ -1127,7 +1141,9 @@ margin : -1.2em;
 .makeinvisible {
 display : none;
 }
-    
+ .topparagraph_home {
+     padding-bottom: 4em;
+    }
 .paragraph2 {
 	width:82%;
     margin-left: auto;
