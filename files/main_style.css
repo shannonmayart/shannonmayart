@@ -207,8 +207,8 @@ br {
 }
 
 wsite-multicol-tbody{
-   //* table-layout:fixed;
-    width:1280px;*//
+   /* table-layout:fixed;
+    width:1280px;*/
 }
 
 .topparagraph_home{
@@ -953,14 +953,7 @@ body:not(.wsite-editor).fade-in .desktop-nav {
     border-color: #000000;
 }
 
-.form-select,
-.wsite-form-field select,
-.wsite-com-product-option-groups select {
-    text-indent: 0.01px;
-    text-overflow: '';
-    height: 40px;
-    background: transparent url(theme/images/select-dropdown.svg?1704489377) 97% center no-repeat;
-}
+
 
 .wsite-form-field input[type='radio'],
 .wsite-form-field input[type='checkbox'],
