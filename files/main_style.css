@@ -1966,14 +1966,14 @@ div.paragraph ol li {
   width: 100%;
   
   
-    background: rgba(16, 43, 59, 0.9);
+    background: rgba(16, 43, 59, 1);
     -webkit-mask-image: linear-gradient(transparent 0%,60%,black 100%);
   mask-image: linear-gradient(transparent 0%,60%, black 100%);
     z-index: 1;
     }
     
     .text{width:80%;
-        top: 70%;}
+        top: 90%;}
     
     .subtitletext{
     font-family: "Roboto",sans-serif;
