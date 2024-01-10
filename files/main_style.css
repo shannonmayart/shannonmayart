@@ -1,7 +1,10 @@
 
+/* navigation */
+
 .nav {
-  position: fixed;
-  background-color: #06111c;
+  
+    position: fixed;
+  background-color: #102b3b;
   top: 0;
   left: 0;
   right: 0;
@@ -9,13 +12,19 @@
     z-index:99;
 }
 
+nav.scrolled {
+  background-color: #133c54 !important;
+  transition: background-color 200ms linear;
+}
+
 .flex-container {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
-  padding: 20px 0;
+  padding: 10px 0;
   transition: all 0.3s ease-in-out;
     z-index:99;
+    
 }
 
 .nav ul {
@@ -26,10 +35,15 @@
 }
 
 .nav a {
+    font-family: 'Quicksand',sans-serif !important; 
   color: #fff;
   text-decoration: none;
   padding: 7px 15px;
   transition: all 0.3s ease-in-out;
+}
+
+.nav a:hover{
+    color:#3ab890;
 }
 
 
@@ -378,7 +392,7 @@ body {overflow-x: hidden !important;
    background-image: url("theme/files/gaminggreendark2.jpg");
     background-repeat: repeat;
     background-position: center top;
-    background-size:100%;
+   /* background-size:100%;*/
     color: #000000;
     font-family: 'Birdseye', sans-serif;
     font-size: 16px;
@@ -702,43 +716,11 @@ div.paragraph {
     max-height: 40px;
 }
 
-.nav {
-    display: table-cell;
-    vertical-align: middle;
-}
 
-.nav ul {
-    float: right;
-    max-width: calc(100vw - 480px);
-    overflow: hidden;
-}
 
-.nav li {
-    display: inline-block;
-    margin: 5px 5px 5px 0;
-}
 
-.nav .wsite-menu-item {
-    color:aliceblue;
-    display: block;
-    padding: 12px 20px;
-    border: 1px solid transparent;
-    border-radius: 100px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    -webkit-transition: opacity 300ms ease;
-    -moz-transition: opacity 300ms ease;
-    -ms-transition: opacity 300ms ease;
-    transition: opacity 300ms ease;
-}
 
-.nav li:not(.wsite-nav-cart)#active > .wsite-menu-item {
-    border-color: aliceblue;
-}
+
 #pg497696655286110906 {
     border-color: aliceblue;
     border-style: solid;
@@ -1961,7 +1943,7 @@ h2#wsite-com-product-title {
     
     body,html{
       
-        overflow-x:hidden;
+      
     }
     
     wrapper
@@ -2002,7 +1984,7 @@ h2#wsite-com-product-title {
     
     body,html{
       
-        overflow-x:hidden;
+        
     }
     
     .wrapper
@@ -2073,3 +2055,275 @@ div.paragraph ol,
 div.paragraph ol li {
     list-style: decimal outside !important;
 }
+
+/* stuff from the main doc */
+
+ .wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph,
+        .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p,
+        .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title,
+        .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description,
+        .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label,
+        .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label,
+        #wsite-content div.paragraph,
+        #wsite-content p,
+        #wsite-content .product-block .product-title,
+        #wsite-content .product-description,
+        #wsite-content .wsite-form-field label,
+        #wsite-content .wsite-form-field label,
+        .blog-sidebar div.paragraph,
+        .blog-sidebar p,
+        .blog-sidebar .wsite-form-field label,
+        .blog-sidebar .wsite-form-field label {
+            font-family: "Quicksand" !important;
+            text-transform: none !important;
+        }
+
+        #wsite-content div.paragraph,
+        #wsite-content p,
+        #wsite-content .product-block .product-title,
+        #wsite-content .product-description,
+        #wsite-content .wsite-form-field label,
+        #wsite-content .wsite-form-field label,
+        .blog-sidebar div.paragraph,
+        .blog-sidebar p,
+        .blog-sidebar .wsite-form-field label,
+        .blog-sidebar .wsite-form-field label {
+            color: #133c55 !important;
+        }
+
+        .wsite-elements.wsite-footer div.paragraph,
+        .wsite-elements.wsite-footer p,
+        .wsite-elements.wsite-footer .product-block .product-title,
+        .wsite-elements.wsite-footer .product-description,
+        .wsite-elements.wsite-footer .wsite-form-field label,
+        .wsite-elements.wsite-footer .wsite-form-field label {
+            font-family: "Quicksand" !important;
+        }
+
+        .wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2,
+        .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title,
+        .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title,
+        .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title,
+        #wsite-content h2,
+        #wsite-content .product-long .product-title,
+        #wsite-content .product-large .product-title,
+        #wsite-content .product-small .product-title,
+        .blog-sidebar h2 {
+            font-family: "Roboto" !important;
+            font-weight: 700 !important;
+            font-style: normal !important;
+            text-transform: none !important;
+            letter-spacing: 0px !important;
+        }
+
+        #wsite-content h2,
+        #wsite-content .product-long .product-title,
+        #wsite-content .product-large .product-title,
+        #wsite-content .product-small .product-title,
+        .blog-sidebar h2 {
+            color: #133c55;
+        }
+
+        .wsite-elements.wsite-footer h2,
+        .wsite-elements.wsite-footer .product-long .product-title,
+        .wsite-elements.wsite-footer .product-large .product-title,
+        .wsite-elements.wsite-footer .product-small .product-title {
+            font-family: "Quicksand" !important;
+            font-weight: 700 !important;
+            color: #a1a1a1 !important;
+            text-transform: uppercase !important;
+        }
+
+        #wsite-title {
+            font-family: "Honey Script" !important;
+            text-transform: none !important;
+        }
+
+        .wsite-not-footer h2.wsite-content-title a,
+        .wsite-not-footer .paragraph a,
+        .wsite-not-footer blockquote a,
+        #blogTable .blog-sidebar a,
+        #blogTable .blog-comments a,
+        #blogTable .blog-comments-bottom a,
+        #wsite-com-store a,
+        #wsite-com-product-gen a {
+            color: #133c55 !important;
+        }
+
+        .wsite-menu-default a {
+            font-family: "Quicksand" !important;
+            font-weight: 700 !important;
+        }
+
+        .wsite-menu a {
+            font-family: "Quicksand" !important;
+            font-weight: 700 !important;
+        }
+
+        .wsite-image div,
+        .wsite-caption {}
+
+        .galleryCaptionInnerText {
+            font-style: normal !important;
+            text-transform: none !important;
+            letter-spacing: 2px !important;
+        }
+
+        .fancybox-title {}
+
+        .wslide-caption-text {}
+
+        .wsite-phone {
+            color: #133c55 !important;
+        }
+
+        .wsite-headline,
+        .wsite-header-section .wsite-content-title {
+            font-family: "Roboto" !important;
+            text-transform: none !important;
+            letter-spacing: 3px !important;
+        }
+
+        .wsite-headline-paragraph,
+        .wsite-header-section .paragraph {
+            font-family: "Quicksand" !important;
+            font-weight: 400 !important;
+        }
+
+        .wsite-button-inner {
+            font-family: "Quicksand" !important;
+            font-weight: 700 !important;
+        }
+
+        .wsite-not-footer blockquote {
+            font-family: "Playfair Display" !important;
+            font-weight: 400 !important;
+        }
+
+        .wsite-footer blockquote {}
+
+        .blog-header h2 a {}
+
+        #wsite-content h2.wsite-product-title {}
+
+        .wsite-product .wsite-product-price a {}
+
+        .wsite-button-small .wsite-button-inner {
+            font-size: 16px !important;
+        }
+
+        .wsite-button-large .wsite-button-inner {
+            font-size: 16px !important;
+        }
+
+        @media screen and (min-width: 767px) {
+
+            .wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph,
+            .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p,
+            .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title,
+            .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description,
+            .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label,
+            .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label,
+            #wsite-content div.paragraph,
+            #wsite-content p,
+            #wsite-content .product-block .product-title,
+            #wsite-content .product-description,
+            #wsite-content .wsite-form-field label,
+            #wsite-content .wsite-form-field label,
+            .blog-sidebar div.paragraph,
+            .blog-sidebar p,
+            .blog-sidebar .wsite-form-field label,
+            .blog-sidebar .wsite-form-field label {
+                font-size: 16px !important;
+            }
+
+            #wsite-content div.paragraph,
+            #wsite-content p,
+            #wsite-content .product-block .product-title,
+            #wsite-content .product-description,
+            #wsite-content .wsite-form-field label,
+            #wsite-content .wsite-form-field label,
+            .blog-sidebar div.paragraph,
+            .blog-sidebar p,
+            .blog-sidebar .wsite-form-field label,
+            .blog-sidebar .wsite-form-field label {}
+
+            .wsite-elements.wsite-footer div.paragraph,
+            .wsite-elements.wsite-footer p,
+            .wsite-elements.wsite-footer .product-block .product-title,
+            .wsite-elements.wsite-footer .product-description,
+            .wsite-elements.wsite-footer .wsite-form-field label,
+            .wsite-elements.wsite-footer .wsite-form-field label {
+                font-size: 12px !important;
+            }
+
+            .wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2,
+            .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title,
+            .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title,
+            .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title,
+            #wsite-content h2,
+            #wsite-content .product-long .product-title,
+            #wsite-content .product-large .product-title,
+            #wsite-content .product-small .product-title,
+            .blog-sidebar h2 {
+                font-size: 57px;
+                line-height: 66px;
+            }
+
+            #wsite-content h2,
+            #wsite-content .product-long .product-title,
+            #wsite-content .product-large .product-title,
+            #wsite-content .product-small .product-title,
+            .blog-sidebar h2 {}
+
+            .wsite-elements.wsite-footer h2,
+            .wsite-elements.wsite-footer .product-long .product-title,
+            .wsite-elements.wsite-footer .product-large .product-title,
+            .wsite-elements.wsite-footer .product-small .product-title {
+                font-size: 12px !important;
+            }
+
+            #wsite-title {}
+
+            .wsite-menu-default a {}
+
+            .wsite-menu a {}
+
+            .wsite-image div,
+            .wsite-caption {}
+
+            .galleryCaptionInnerText {
+                font-size: 25px !important;
+            }
+
+            .fancybox-title {}
+
+            .wslide-caption-text {}
+
+            .wsite-phone {}
+
+            .wsite-headline,
+            .wsite-header-section .wsite-content-title {
+                font-size: 40px !important;
+                line-height: 6px !important;
+            }
+
+            .wsite-headline-paragraph,
+            .wsite-header-section .paragraph {}
+
+            .wsite-button-inner {}
+
+            .wsite-not-footer blockquote {
+                font-size: 38px !important;
+                line-height: 59px !important;
+            }
+
+            .wsite-footer blockquote {}
+
+            .blog-header h2 a {}
+
+            #wsite-content h2.wsite-product-title {}
+
+            .wsite-product .wsite-product-price a {}
+            
+            /* stuff from main doc end */
