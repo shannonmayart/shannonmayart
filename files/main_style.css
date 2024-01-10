@@ -1804,28 +1804,21 @@ div.paragraph ol li {
     
    
 
-    td.wsite-multicol-col {
+    /*td.wsite-multicol-col {
         float:left;
         text-align: center;
         display: block;
         height: auto;
         width: 100% !important;
         box-sizing: border-box;
-    }
-
-    
-    body,html{
-      
-      
-    }
+    }*/
     
     .wrapper
     { overflow-x:hidden;
     position: relative;}
     
     body{
-        width:100%;
-      
+        width:100%; 
     }
     
      .makeinvisible{display: none;}
