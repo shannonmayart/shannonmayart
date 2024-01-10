@@ -2004,7 +2004,22 @@ h2#wsite-com-product-title {
 
 @media (hover: none) { .overlay{
         opacity: 1;
+      position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  
+  
+    background: rgba(16, 43, 59, 0.8);
+    -webkit-mask-image: linear-gradient(transparent 0%, black 100%);
+  mask-image: linear-gradient(transparent 0%, 10%, black 45%, 90%,transparent 100%);
+    z-index: 1;
     }
+    
+    .text{}
 }
 
 @media screen and (max-width: 480px) {
