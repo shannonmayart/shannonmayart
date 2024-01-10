@@ -1403,18 +1403,7 @@ h2#wsite-com-product-title {
     vertical-align: top;
 }
 
-#wsite-mini-cart .wsite-product-list .wsite-product-price,
-#wsite-mini-cart .wsite-items-quantity,
-#wsite-mini-cart .wsite-name-header,
-#wsite-mini-cart .wsite-subtotal-wrapper,
-#wsite-mini-cart .wsite-subtotal-wrapper * {
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    line-height: 1.25;
-}
+
 
 
 
@@ -1600,16 +1589,6 @@ div.paragraph ol li {
         font-size: 16px !important;
     }
 
-    #wsite-content div.paragraph,
-    #wsite-content p,
-    #wsite-content .product-block .product-title,
-    #wsite-content .product-description,
-    #wsite-content .wsite-form-field label,
-    #wsite-content .wsite-form-field label,
-    .blog-sidebar div.paragraph,
-    .blog-sidebar p,
-    .blog-sidebar .wsite-form-field label,
-    .blog-sidebar .wsite-form-field label {}
 
     .wsite-elements.wsite-footer div.paragraph,
     .wsite-elements.wsite-footer p,
@@ -1633,11 +1612,7 @@ div.paragraph ol li {
         line-height: 66px;
     }
 
-    #wsite-content h2,
-    #wsite-content .product-long .product-title,
-    #wsite-content .product-large .product-title,
-    #wsite-content .product-small .product-title,
-    .blog-sidebar h2 {}
+
 
     .wsite-elements.wsite-footer h2,
     .wsite-elements.wsite-footer .product-long .product-title,
@@ -1646,24 +1621,12 @@ div.paragraph ol li {
         font-size: 12px !important;
     }
 
-    #wsite-title {}
-
-    .wsite-menu-default a {}
-
-    .wsite-menu a {}
-
-    .wsite-image div,
-    .wsite-caption {}
 
     .galleryCaptionInnerText {
         font-size: 25px !important;
     }
 
-    .fancybox-title {}
-
-    .wslide-caption-text {}
-
-    .wsite-phone {}
+    
 
     .wsite-headline,
     .wsite-header-section .wsite-content-title {
@@ -1671,23 +1634,14 @@ div.paragraph ol li {
         line-height: 6px !important;
     }
 
-    .wsite-headline-paragraph,
-    .wsite-header-section .paragraph {}
-
-    .wsite-button-inner {}
+  
 
     .wsite-not-footer blockquote {
         font-size: 38px !important;
         line-height: 59px !important;
     }
 
-    .wsite-footer blockquote {}
-
-    .blog-header h2 a {}
-
-    #wsite-content h2.wsite-product-title {}
-
-    .wsite-product .wsite-product-price a {}
+   
 
     /* stuff from main doc end */
 
@@ -1852,7 +1806,7 @@ div.paragraph ol li {
             right: 0;
             height: 100%;
             width: 100%;
-        /*    background: rgba(16, 43, 59, 1);  */
+        background: rgba(16, 43, 59, 1);  
             -webkit-mask-image: linear-gradient(transparent 0%, 60%, black 100%);
             mask-image: linear-gradient(transparent 0%, 60%, black 100%);
             z-index: 1;
