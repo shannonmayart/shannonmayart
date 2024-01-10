@@ -1833,7 +1833,7 @@ div.paragraph ol li {
 
 
     topparagraph_home{
-        width:30% !important;
+        width:100% !important;
         height:auto;
     }
     
@@ -1844,7 +1844,7 @@ div.paragraph ol li {
         text-align: center;
         display: block;
         height: auto;
-        width: 60% !important;
+        width: 100% !important;
         box-sizing: border-box;
     }
 
