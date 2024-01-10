@@ -1987,9 +1987,9 @@ h2#wsite-com-product-title {
   width: 100%;
   
   
-    background: rgba(16, 43, 59, 0.8);
-    -webkit-mask-image: linear-gradient(transparent 0%,black 100%);
-  mask-image: linear-gradient(transparent 0%, black 100%);
+    background: rgba(16, 43, 59, 0.9);
+    -webkit-mask-image: linear-gradient(transparent 0%,60%,black 100%);
+  mask-image: linear-gradient(transparent 0%,60%, black 100%);
     z-index: 1;
     }
     
@@ -1999,7 +1999,7 @@ h2#wsite-com-product-title {
     .subtitletext{
     font-family: "Roboto",sans-serif;
     font-weight: 500;
-    font-size:1em;
+    font-size:1.3em;
     line-height: 1em;
    
 }
