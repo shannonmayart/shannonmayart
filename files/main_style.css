@@ -2002,6 +2002,11 @@ h2#wsite-com-product-title {
 
 }
 
+@media (hover: none) { .overlay{
+        opacity: 1;
+    }
+}
+
 @media screen and (max-width: 480px) {
     
     .makeinvisible{display: none;}
@@ -2017,6 +2022,8 @@ h2#wsite-com-product-title {
          
     
 }
+    
+   
 
     #wsite-com-checkout-list .wsite-com-checkout-item-image,
     #wsite-com-checkout-summary-list .wsite-com-checkout-item-image {
