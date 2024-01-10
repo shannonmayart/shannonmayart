@@ -1550,8 +1550,7 @@ div.paragraph ol li {
     font-weight: 700 !important;
 }
 
-.wsite-image div,
-.wsite-caption {}
+
 
 .galleryCaptionInnerText {
     font-style: normal !important;
@@ -1559,9 +1558,6 @@ div.paragraph ol li {
     letter-spacing: 2px !important;
 }
 
-.fancybox-title {}
-
-.wslide-caption-text {}
 
 .wsite-phone {
     color: #133c55 !important;
@@ -1580,31 +1576,8 @@ div.paragraph ol li {
     font-weight: 400 !important;
 }
 
-.wsite-button-inner {
-    font-family: "Quicksand" !important;
-    font-weight: 700 !important;
-}
 
-.wsite-not-footer blockquote {
-    font-family: "Playfair Display" !important;
-    font-weight: 400 !important;
-}
 
-.wsite-footer blockquote {}
-
-.blog-header h2 a {}
-
-#wsite-content h2.wsite-product-title {}
-
-.wsite-product .wsite-product-price a {}
-
-.wsite-button-small .wsite-button-inner {
-    font-size: 16px !important;
-}
-
-.wsite-button-large .wsite-button-inner {
-    font-size: 16px !important;
-}
 
 @media screen and (min-width: 767px) {
 
@@ -1850,8 +1823,7 @@ div.paragraph ol li {
         }
 
 
-        body,
-        html {}
+    
 
         .wrapper {
             overflow-x: hidden;
@@ -1880,7 +1852,7 @@ div.paragraph ol li {
             right: 0;
             height: 100%;
             width: 100%;
-            background: rgba(16, 43, 59, 1);
+        /*    background: rgba(16, 43, 59, 1);  */
             -webkit-mask-image: linear-gradient(transparent 0%, 60%, black 100%);
             mask-image: linear-gradient(transparent 0%, 60%, black 100%);
             z-index: 1;
@@ -1920,8 +1892,5 @@ div.paragraph ol li {
             line-height: 0.6;
             width: max-content;
             padding-top: 50px;
-
-
         }
-
     }
