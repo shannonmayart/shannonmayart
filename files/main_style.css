@@ -206,7 +206,7 @@ br {
      background-size: 250% 750px;
 }
 
-wsite-multicol-tbody{
+.wsite-multicol-tbody{
    /* table-layout:fixed;
     width:1280px;*/
 }
@@ -1798,7 +1798,7 @@ div.paragraph ol li {
 
 
     .topparagraph_home{
-        width:100% !important;
+        width:400px !important;
         height:auto;
     }
     

@@ -1306,7 +1306,7 @@
     display: none
 }
 
-@media \0screen {
+@media screen {
     .video-js.vjs-user-inactive.vjs-playing .vjs-control-bar :before {
         content: ""
     }
@@ -3471,13 +3471,13 @@ html body .galleryImageBorderBlack,html body a .galleryImageBorderBlack {
 
 .galleryCaptionHover .galleryCaptionHolder {
     opacity: 0;
-    display: none\0;
+    display: none;
     transition: opacity 500ms
 }
 
 .galleryInnerImageHolder:hover .galleryCaptionHolder {
     opacity: 1;
-    display: block\0
+    display: block;
 }
 
 .galleryCaptionHolderInner {
@@ -8083,7 +8083,7 @@ h2,.wsite-content-title,.paragraph {
     }
 }
 
-@media print, projection {
+@media print {
     .str {
         color: #060
     }
