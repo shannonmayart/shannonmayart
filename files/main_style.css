@@ -1091,6 +1091,8 @@ body {
 width : 100%;
 }
 }
+
+
 @media (hover: none) {
 .overlay {
 opacity : 1;
@@ -1107,7 +1109,7 @@ z-index : 1;
 }
 .text {
 width : 80%;
-top : 90%;
+top : 70%;
 }
 .subtitletext {
 font-family : "Roboto", sans-serif;
