@@ -1723,7 +1723,7 @@
     margin-bottom: 3em;
     border-left: 2em solid transparent;
     border-right: 2em solid transparent;
-    border-top: 1.55em solid #000000;
+    border-top: 1.55em solid #133c54;
     border-top-color: rgba(7,40,50,0.5)
 }
 
@@ -1883,7 +1883,7 @@ body.vjs-full-window {
     font-size: 1.4em;
     text-align: center;
     margin-bottom: 0.1em;
-    background-color: #000000;
+    background-color: #133c54;
     background-color: rgba(0,0,0,0.5)
 }
 
@@ -3237,7 +3237,7 @@ em {
 .product-long-price {
     font-weight: bold !important;
     font-size: 16px !important;
-    color: #000000;
+    color: #133c54;
     margin: 10px 0px !important
 }
 
@@ -7675,7 +7675,7 @@ body.wsite-theme-dark .policy-popover {
 }
 
 .wsite-theme-dark .popover-content {
-    background: #000000;
+    background: #133c54;
     border-radius: 6px
 }
 
@@ -11189,7 +11189,7 @@ div.ps-carousel-item-error {
 }
 
 div.ps-caption {
-    background: #000000;
+    background: #133c54;
     background: -moz-linear-gradient(to bottom, #303130 0%, #000101 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #303130), color-stop(100%, #000101));
     border-bottom: 1px solid #42403f;
@@ -11215,7 +11215,7 @@ div.ps-caption-content {
 }
 
 div.ps-toolbar {
-    background: #000000;
+    background: #133c54;
     background: -moz-linear-gradient(to bottom, #303130 0%, #000101 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #303130), color-stop(100%, #000101));
     border-top: 1px solid #42403f;
