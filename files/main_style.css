@@ -1,3 +1,6 @@
+.wsite-background-21
+{background-color: #ffffff !important;}
+
 .nav {
 position : fixed;
 background-color : #102b3b;
@@ -73,6 +76,7 @@ opacity : 0;
 transition : 0.5s ease;
 background : rgb(16, 43, 59, 0.8);
 mask-image : linear-gradient(transparent 0%, 10%, black 45%, 90%, transparent 100%);
+    
 z-index : 1;
 }
 .overlay:before {
@@ -93,7 +97,7 @@ opacity : 1;
 .text {
 font-family : "Roboto", sans-serif;
 width : 67%;
-color : white;
+
 font-size : 20px;
 position : absolute;
 top : 45%;
@@ -106,6 +110,7 @@ font-family : "Roboto", sans-serif;
 font-weight : 500;
 font-size : 2em;
 line-height : 1em;
+    color:#ffffff !important;
 }
 .skills {
 font-size : 0.7em;
@@ -139,6 +144,7 @@ margin : -0.5em;
 line-height : 1.2em;
 font-size : 1em;
 margin : -1.2em;
+    color : white !important;
 }
 @media only screen and (min-width: 481px) {
 .column {
@@ -932,80 +938,80 @@ padding-bottom : 10px;
 vertical-align : top;
 }
 div.paragraph ul, div.paragraph ol {
-padding-left : 3em !important ;
-margin : 5px 0 !important ;
+padding-left : 3em  ;
+margin : 5px 0  ;
 }
 div.paragraph li {
-padding-left : 5px !important ;
-margin : 3px 0 0 !important ;
+padding-left : 5px  ;
+margin : 3px 0 0 ;
 }
 div.paragraph ul, div.paragraph ul li {
-list-style : disc outside !important ;
+list-style : disc outside  ;
 }
 div.paragraph ol, div.paragraph ol li {
-list-style : decimal outside !important ;
+list-style : decimal outside ;
 }
 .wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {
-font-family : "Quicksand" !important ;
-text-transform : none !important ;
+font-family : "Quicksand"  ;
+text-transform : none  ;
 }
 #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {
-color : #133c55 !important ;
+color : #133c55;
 }
 .wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label {
-font-family : "Quicksand" !important ;
+font-family : "Quicksand"  ;
 }
 .wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {
-font-family : "Roboto" !important ;
-font-weight : 700 !important ;
-font-style : normal !important ;
-text-transform : none !important ;
-letter-spacing : 0 !important ;
+font-family : "Roboto"; 
+font-weight : 700 ;
+font-style : normal  ;
+text-transform : none;
+letter-spacing : 0  ;
 }
 #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {
 color : #133c55;
 }
 .wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title {
-font-family : "Quicksand" !important ;
-font-weight : 700 !important ;
-color : #a1a1a1 !important ;
-text-transform : uppercase !important ;
+font-family : "Quicksand" ;
+font-weight : 700 ;
+color : #a1a1a1 ;
+text-transform : uppercase ;
 }
 #wsite-title {
-font-family : "Honey Script" !important ;
-text-transform : none !important ;
+font-family : "Honey Script" ;
+text-transform : none ;
 }
 .wsite-not-footer h2.wsite-content-title a, .wsite-not-footer .paragraph a, .wsite-not-footer blockquote a, #blogTable .blog-sidebar a, #blogTable .blog-comments a, #blogTable .blog-comments-bottom a, #wsite-com-store a, #wsite-com-product-gen a {
-color : #133c55 !important ;
+color : #133c55 ;
 }
 .wsite-menu-default a {
-font-family : "Quicksand" !important ;
-font-weight : 700 !important ;
+font-family : "Quicksand" ;
+font-weight : 700  ;
 }
 .wsite-menu a {
-font-family : "Quicksand" !important ;
-font-weight : 700 !important ;
+font-family : "Quicksand" ;
+font-weight : 700  ;
 }
 .galleryCaptionInnerText {
-font-style : normal !important ;
-text-transform : none !important ;
-letter-spacing : 2px !important ;
+font-style : normal  ;
+text-transform : none  ;
+letter-spacing : 2px  ;
 }
 .wsite-phone {
-color : #133c55 !important ;
+color : #133c55  ;
 }
 .wsite-headline, .wsite-header-section .wsite-content-title {
-font-family : "Roboto" !important ;
-text-transform : none !important ;
-letter-spacing : 3px !important ;
+font-family : "Roboto" ;
+text-transform : none ;
+letter-spacing : 3px  ;
 }
 .wsite-headline-paragraph, .wsite-header-section .paragraph {
-font-family : "Quicksand" !important ;
-font-weight : 400 !important ;
+font-family : "Quicksand"  ;
+font-weight : 400  ;
 }
 @media screen and (min-width: 767px) {
 .wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {
-font-size : 16px !important ;
+font-size : 16px ;
 }
 .wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label {
 font-size : 12px !important ;
