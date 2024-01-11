@@ -1,3 +1,7 @@
+wsite-multicol-col{
+        padding:0 25px;
+    }
+
 a.wsite-social-item:hover{color:aquamarine !important;
 transition: all 300ms ease;}
 
@@ -1100,13 +1104,18 @@ font-size : 16px;
 @media screen and (max-width: 900px) {
     
      table,tr, td, tbody, td p table div, table table{
-        width:90% !important;
-         padding-left:5%;
-         padding-right:5%;
+        width:100% !important;
+      
+         margin-left:auto;
+         margin-right:auto;
         float:left !important;
         clear:both !important; 
         display:block !important; 
         text-align:left !important;
+    }
+    
+    wsite-multicol-col{
+        padding:0;
     }
     .makeinvisible {
 display : none;
