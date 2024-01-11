@@ -228,7 +228,7 @@ font-weight : 300;
 line-height : 1.75;
 margin : 3em auto 3em;
 text-align : center;
-height : 100vh;
+height : 35em;
 }
 ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockquote, fieldset, input {
 margin : 0;
@@ -1220,9 +1220,21 @@ font-size : 0.8em;
 margin : -1.2em;
 }
 }
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 732px) {
+   .main-wrap {
+background-image : url("theme/files/semicircle.png");
+background-repeat : no-repeat;
+background-position : center top;
+background-size : 400% 600px;
+} 
+}
+@media screen and (max-width: 502px) {
 .makeinvisible {
 display : none;
+}
+.wsite-multicol-table-wrap {
+margin:0 !important;    
 }
  .topparagraph_home {
      padding-bottom: 4em;
@@ -1239,7 +1251,7 @@ display : none;
 background-image : url("theme/files/semicircle.png");
 background-repeat : no-repeat;
 background-position : center top;
-background-size : 400% 750px;
+background-size : 400% 735px;
 }
     
 #wsite-content h2 {
@@ -1256,13 +1268,7 @@ color : #133c54;
 line-height : 0.6;
 width : max-content;
 padding-top : 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
-}
-@media screen and (max-width: 732px) {
-   .main-wrap {
-background-image : url("theme/files/semicircle.png");
-background-repeat : no-repeat;
-background-position : center top;
-background-size : 400% 650px;
-} 
 }

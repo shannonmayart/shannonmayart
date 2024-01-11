@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="files/sites.css" />
     <link rel="stylesheet" type="text/css" href="files/social-icons.css" />
     <link rel="stylesheet" type="text/css" href="files/main_style.css" />
+        <link href="files/lightbox2-2.11.4/src/css/lightbox.css" rel="stylesheet" />
     
    
 
@@ -256,7 +257,7 @@ border-radius: 25px;
 				<div class="paragraph"><strong><font size="5">User Journey</font></strong></div>
 
 <div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
-<a href='uploads/1/4/7/8/147854357/userjourney-sains_orig.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>
+<a href='uploads/1/4/7/8/147854357/userjourney-sains_orig.jpg' data-lightbox="userjourney">
 <img src="uploads/1/4/7/8/147854357/userjourney-sains_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
@@ -279,7 +280,7 @@ border-radius: 25px;
 						
 
 <div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center">
-<a>
+<a href="uploads/1/4/7/8/147854357/cancelshopping_orig.jpg" data-lightbox="cancel">
 <img src="uploads/1/4/7/8/147854357/cancelshopping_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
@@ -312,7 +313,7 @@ border-radius: 25px;
 						
 
 <div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center">
-<a>
+<a href="uploads/1/4/7/8/147854357/basketscreen_orig.jpg" data-lightbox="itemintegration">
 <img src="uploads/1/4/7/8/147854357/basketscreen_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
@@ -328,7 +329,7 @@ border-radius: 25px;
 						
 
 <div><div class="wsite-image wsite-image-border-hairline wsite-image-border-black" style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:left">
-<a>
+<a href="uploads/1/4/7/8/147854357/nectardiscount_orig.jpg" data-lightbox="nectar">
 <img src="uploads/1/4/7/8/147854357/nectardiscount_orig.jpg" alt="Displaying the nectar discount prompt clearly in the right hand corner." style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
@@ -368,7 +369,7 @@ border-radius: 25px;
 				<div class="paragraph"><strong><font color="#2a2a2a" size="5">Wireframing</font></strong><br />&#8203;The wireframes were achieved with a combination of figma tools and Sainsburys&rsquo; design system Luna, to make sure that the final design followed Sainsburys existing brand style.</div>
 
 <div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center">
-<a href='uploads/1/4/7/8/147854357/sainsburyswireframes_orig.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>
+<a href="uploads/1/4/7/8/147854357/sainsburyswireframes_orig.jpg" data-lightbox="wireframes">
 <img src="uploads/1/4/7/8/147854357/sainsburyswireframes_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
@@ -563,6 +564,15 @@ border-radius: 25px;
 
 	<script type="text/javascript" src="files/theme/plugins.js"></script>
   <script type="text/javascript" src="files/theme/custom.js"></script>
+          <script src="files/lightbox2-2.11.4/dist/js/lightbox-plus-jquery.js"></script>
+    <!-- lightbox settings -->
+    <script>
+    lightbox.option({
+'wrapAround': true,
+'alwaysShowNavOnTouchDevices': true,
+        'disableScrolling': true
+    })
+</script>
    
 
 		
