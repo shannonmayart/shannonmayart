@@ -1098,6 +1098,16 @@ font-size : 16px;
 }
 }
 @media screen and (max-width: 900px) {
+    
+     table,tr, td, tbody, td p table div, table table{
+        width:90% !important;
+         padding-left:5%;
+         padding-right:5%;
+        float:left !important;
+        clear:both !important; 
+        display:block !important; 
+        text-align:left !important;
+    }
     .makeinvisible {
 display : none;
 }
