@@ -2890,12 +2890,12 @@ pre {
 
 
 
-* html>body #lightbox2 .clearfix {
+* html>body .clearfix {
     display: inline-block;
     width: 100%
 }
 
-* html #lightbox2 .clearfix {
+* html .clearfix {
     height: 1%
 }
 
