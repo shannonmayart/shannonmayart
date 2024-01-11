@@ -1,4 +1,4 @@
-wsite-multicol-col{
+.wsite-multicol-col{
         padding:0 25px;
     }
 
@@ -1114,7 +1114,7 @@ font-size : 16px;
         text-align:left !important;
     }
     
-    wsite-multicol-col{
+    .wsite-multicol-col{
         padding:0;
     }
     .makeinvisible {
