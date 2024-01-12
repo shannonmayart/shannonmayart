@@ -1106,6 +1106,16 @@ font-size : 16px;
 .splash-page p {
 font-size : 16px;
 }
+    
+    .wsite-background-21, .wsite-background-13, .wsite-background-25, .wsite-background-15, .wsite-background-17, .wsite-background-19
+{background-color: #ffffff !important;
+padding-top:30px;
+    padding-bottom:30px;}
+
+.wsite-background-20, .wsite-background-27, .wsite-background-22, .wsite-background-23, .wsite-background-24, .wsite-background-28, .wsite-background-29, .wsite-background-30, .wsite-background-26, .wsite-background-9, .wsite-background-12, .wsite-background-14, .wsite-background-16, .wsite-background-18
+{
+padding-top:30px;
+    padding-bottom:30px;}
 }
 @media screen and (max-width: 900px) {
     
