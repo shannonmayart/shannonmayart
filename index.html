@@ -28,6 +28,7 @@
     <link rel="stylesheet" type="text/css" href="files/social-icons.css" />
     <link rel="stylesheet" type="text/css" href="files/main_style.css" />
     <link href="files/lightbox2-2.11.4/src/css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
    
 
@@ -104,6 +105,16 @@ $(function () {
 });
 </script>
     
+      <script> function responsiveNav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "flex-container") {
+    x.className += " responsive";
+  } else {
+    x.className = "flex-container";
+  }
+}
+</script>
+    
     
     
 </head>
@@ -112,15 +123,16 @@ $(function () {
     <div class="wrapper">
         
         <nav class="nav">
-  <div class="flex-container">
-   <!-- <h1 class="logo"><a href="#">Shannon&nbsp;May</a></h1>-->
-    <ul>
-      <li><a href="#CaseStudy">Case&nbsp;Studies</a></li>
-      <li><a href="#Design">Design</a></li>
-      <li><a href="#Art">Art</a></li>
-      <li><a href="#Contact">Contact</a></li>
-    </ul>
-  </div>
+  <div class="flex-container" id="myTopnav">
+     <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
+    <i class="fa fa-bars"></i>
+  </a>  
+    <a href="#CaseStudy">Case&nbsp;Studies</a>
+      <a href="#Design">Design</a>
+      <a href="#Art">Art</a>
+      <a href="#Contact">Contact</a>
+   
+      </div>
         </nav>
         
         
@@ -1097,7 +1109,7 @@ $(function () {
         'disableScrolling': true
     })
 </script>
-
+ 
 
 
 </body></html>
