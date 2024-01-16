@@ -37,7 +37,8 @@ transition : background-color 200ms linear;
 display : flex;
 justify-content : center;
 align-items : center;
-transition : all 0.3s ease-in-out;
+transition : color 0.3s ease-in-out;
+    transition : all 0.3s ease-in-out;
 z-index : 99;
       
   overflow: hidden;
@@ -53,7 +54,7 @@ font-family : 'Quicksand', sans-serif !important ;
 color : #fff;
 text-decoration : none;
 padding : 7px 15px;
-transition : all 0.3s ease-in-out;
+transition : color 0.3s ease-in-out;
     
       float: left;
   display: block;
