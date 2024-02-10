@@ -2910,11 +2910,24 @@ width:auto;
 	#stats .stat:nth-child(2n+1) {
 		border: none;
 	}
+    
+    
 }
 @media only screen and (max-width:600px) {
 	#stats .stat:nth-child(n) {
 		border: none;
 	}
+    
+    .services-list {
+	margin-top: 1.2rem;
+	text-align: center;
+    display: block;
+}
+    .services-list .service {
+	margin-bottom: 1.2rem;
+	padding: 0 30px;
+    width:100%;
+}
 }
 
 
@@ -3221,9 +3234,9 @@ footer .copyright span:last-child::after {
 		text-align: center;
 	}
 	footer .social {
-		display: block;
+		/*display: block;
 		width: 100%;
-		text-align: center;
+		text-align: center;*/
 		margin-bottom: 1.5rem;
 	}
 	footer .copyright span {
