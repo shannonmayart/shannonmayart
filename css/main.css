@@ -2116,11 +2116,15 @@ width:auto;
     line-height:4rem;}
     
     #fixedfooterbuttons{
-        
+     min-width:0px;   
     }
     
     #ShowHideFooter{
         min-width:110px;
+    }
+    
+    .hidingleft{
+        width:110px !important;
     }
     
     
