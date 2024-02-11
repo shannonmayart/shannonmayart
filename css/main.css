@@ -1955,11 +1955,15 @@ text-shadow: 2px 2px 0 #91aaff, -2px -2px 0 #91aaff, 0 -2px 0 #91aaff, -2px 0 0 
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+    background-color: #101010;
+  font-size: 1.5rem;
+  padding: 1.2rem 2.5rem;
+  position: fixed;
+   transition: background-color 0.6s ease;
+    border-bottom-left-radius: 1rem;
+  top: 0%;
+    right:0%;
+  width: auto;
   text-align: center;
 }
 
@@ -2039,7 +2043,7 @@ min-width:200px;
 text-align: right;
     min-width: 470px;
     transition: 0.6s ease;
-    max-height:80px;
+    
     
     
 }
@@ -2049,7 +2053,10 @@ width:200px !important;
     transition: 0.6s ease;
 }
 
-#fixedfooter .button{margin:0;
+#fixedfooter .button{margin-top:0;
+    margin-bottom:5px;
+    margin-left:5px;
+    margin-right:5px;
     transition: 0.6s ease;
 }
 
