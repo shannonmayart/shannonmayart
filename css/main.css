@@ -2050,19 +2050,16 @@ width:200px !important;
  * ------------------------------------------------------------------- 
  */
 @media only screen and (max-width:1024px) {
-	.intro-info {
-		margin-right: 0;
-		margin-left: 0;
-        display:block;
-	}
+	
 }
 @media only screen and (max-width:768px) {
+   
 	.intro-info img {
-		height: 20rem;
-		width: 20rem;
+		height: 30rem;
+		width: 30rem;
 	}
 	.intro-info .lead {
-		padding-left: 11rem;
+		padding-left: 5rem;
 	}
 	.slideshowpage-content h3 {
 		text-align: center;
@@ -2083,6 +2080,11 @@ width:200px !important;
 	.intro-info {
 		text-align: center;
 		margin-top: 3rem;
+	}
+     .intro-info {
+		margin-right: 0;
+		margin-left: 0;
+        display:block;
 	}
 	.intro-info img {
 		height: 20rem;
