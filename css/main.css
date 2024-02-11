@@ -2021,6 +2021,7 @@ position: fixed;
   left: 0;
   bottom: 0;
 width:100%;
+    max-height:80px;
 display:flex;
 align-items: center;
 height:8rem;
@@ -2038,6 +2039,7 @@ min-width:200px;
 text-align: right;
     min-width: 470px;
     transition: 0.6s ease;
+    max-height:80px;
     
     
 }
@@ -2106,6 +2108,22 @@ width:auto;
 	.button-section [class*="col-"] .button:first-child {
 		margin-right: 0;
 	}
+    
+    #fixedfooter .button
+    {padding:0 1.5rem;
+    min-width:100px;
+    max-height:40px;
+    line-height:4rem;}
+    
+    #fixedfooterbuttons{
+        
+    }
+    
+    #ShowHideFooter{
+        min-width:110px;
+    }
+    
+    
    
 }
 @media only screen and (max-width:600px) {
