@@ -2053,12 +2053,13 @@ width:200px !important;
 	.intro-info {
 		margin-right: 0;
 		margin-left: 0;
+        display:block;
 	}
 }
 @media only screen and (max-width:768px) {
 	.intro-info img {
-		height: 7.8rem;
-		width: 7.8rem;
+		height: 20rem;
+		width: 20rem;
 	}
 	.intro-info .lead {
 		padding-left: 11rem;
@@ -2084,8 +2085,8 @@ width:200px !important;
 		margin-top: 3rem;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
+		height: 20rem;
+		width: 20rem;
 		float: none;
 		display: inline-block;
 	}
