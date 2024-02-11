@@ -2049,8 +2049,12 @@ width:200px !important;
  * slideshowpage
  * ------------------------------------------------------------------- 
  */
-@media only screen and (max-width:1024px) {
-	
+@media only screen and (max-width:1090px) {
+    .presentationdots{display: block;max-height:4rem;}
+}
+
+@media only screen and (max-width:847px) {
+    .presentationdots{display: none;}
 }
 @media only screen and (max-width:768px) {
    
