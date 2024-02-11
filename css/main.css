@@ -1095,7 +1095,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  */
 header {
 	position: fixed;
-	width: 20%;
+	min-width: 85px;
 	min-height: 66px;
 	z-index: 600;
 }
@@ -1787,6 +1787,7 @@ header .logo a {
 .uxconfbg{background:#f8d5b2 !important;}
 .beautyawardsbg{background:#fdecec !important;}
 .vtuberassetsbg{background:#9f9ccc !important;}
+.smaybg{background-image: url(../images/casestudies/smay/bg.jpg) !important;}
 
 #slideshowpage .section-intro {
 	margin-bottom: 2rem;
