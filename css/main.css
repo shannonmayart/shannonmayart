@@ -1878,6 +1878,7 @@ header .logo a {
   position: relative;
     margin:auto;
     vertical-align:middle;
+    align-items : center;
     
     
 }
@@ -2049,6 +2050,22 @@ width:200px !important;
  * slideshowpage
  * ------------------------------------------------------------------- 
  */
+@media only screen and (max-width:1190px) { .mySlides {
+  display: none;
+   max-height:100%;
+width:auto; 
+    margin:auto;
+    aspect-ratio: 842 / 595;
+    vertical-align:middle;
+       
+    
+  
+  
+  align-items : center;
+   
+    
+}
+    
 @media only screen and (max-width:1090px) {
     .presentationdots{display: block;max-height:4rem;}
 }
@@ -2100,25 +2117,14 @@ width:200px !important;
 		padding-left: 0;
 		text-align: center;
 	}
-}
-
-@media only screen and (max-width:1190px) { .mySlides {
-  display: none;
-   max-height:100%;
-width:auto; 
-    margin:auto;
-    aspect-ratio: 842 / 595;
-    vertical-align:middle;
+    .mySlides {
        position: absolute;
     top: 50%;
     transform: translateY(-50%);
     
-  
-  
-  align-items : center;
-   
-    
-}}
+}
+
+}
 
 
 
