@@ -2178,6 +2178,9 @@ width:auto;
         bottom:18%;
         top:auto;
     }
+    #ShowHideFooter {
+	display:none;
+}
 
 }
 
