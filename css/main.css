@@ -1332,7 +1332,7 @@ header .logo a {
 	display: table;
 	position: relative;
 	text-align: center;
-     animation: introchange 60s infinite;
+     animation: introchange 40s infinite;
 }
 
 #intro::after {
@@ -1341,7 +1341,7 @@ header .logo a {
   height: 0;
   overflow: hidden;
   z-index: -1;
-  content: url(../images/intro-bg.jpg) url(../images/intro-bg2.jpg) url(../images/intro-bg3.jpg) url(../images/intro-bg4.jpg) url(../images/intro-bg5.jpg) url(../images/intro-bg6.jpg) url(../images/intro-bg7.jpg);
+  content: url(../images/intro-bg.jpg) url(../images/intro-bg2.jpg) url(../images/intro-bg4.jpg) url(../images/intro-bg7.jpg);
 }
 
 @keyframes introchange
@@ -1352,73 +1352,43 @@ header .logo a {
 	background-size: cover;
 	background-attachment: fixed;}
             
-            11%   {background:url(../images/intro-bg.jpg) no-repeat center bottom;
+            15%   {background:url(../images/intro-bg.jpg) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;}
-            14%   {background:url(../images/intro-bg2.jpg) no-repeat center bottom;
+            20%   {background:url(../images/intro-bg2.jpg) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;}
             
-            25%   {background:url(../images/intro-bg2.jpg) no-repeat center bottom;
+            35%   {background:url(../images/intro-bg2.jpg) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;}
-            28%   {background:url(../images/intro-bg3.jpg) no-repeat center bottom;
+            40%   {background:url(../images/intro-bg4.jpg) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;}
-              39%   {background:url(../images/intro-bg3.jpg) no-repeat center bottom;
+            55%   {background:url(../images/intro-bg4.jpg) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;}
-            42%   {background:url(../images/intro-bg4.jpg) no-repeat center bottom;
+            60%   {background:url(../images/intro-bg7.jpg) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;}
-            53%   {background:url(../images/intro-bg4.jpg) no-repeat center bottom;
+             75%   {background:url(../images/intro-bg7.jpg) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;}
-              56%   {background:url(../images/intro-bg5.jpg) no-repeat center bottom;
-            -webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	background-attachment: fixed;}
-            67%   {background:url(../images/intro-bg5.jpg) no-repeat center bottom;
-            -webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	background-attachment: fixed;}
-            70%   {background:url(../images/intro-bg6.jpg) no-repeat center bottom;
-            -webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	background-attachment: fixed;}
-            81%   {background:url(../images/intro-bg6.jpg) no-repeat center bottom;
-            -webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	background-attachment: fixed;}
-            84%   {background:url(../images/intro-bg7.jpg) no-repeat center bottom;
-            -webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	background-attachment: fixed;}
-             95%   {background:url(../images/intro-bg7.jpg) no-repeat center bottom;
-            -webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	background-attachment: fixed;}
-             98%   {background:url(../images/intro-bg.jpg) no-repeat center bottom;
+             80%   {background:url(../images/intro-bg.jpg) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2829,7 +2799,7 @@ width:auto;
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
