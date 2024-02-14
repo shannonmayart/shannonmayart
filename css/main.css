@@ -139,7 +139,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: #555555;
     margin-bottom: 0;
 }
 @media only screen and (max-width:768px) {
@@ -198,7 +198,7 @@ blockquote cite:before {
 	content: "\2014 \0020";
 }
 blockquote cite a, blockquote cite a:visited {
-	color: #888888;
+	color: #555555;
 	border: none;
 }
 abbr {
@@ -206,7 +206,7 @@ abbr {
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .05rem;
-	color: #888888;
+	color: #555555;
 }
 var, kbd, samp, code, pre {
 	font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
@@ -937,7 +937,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin: .6rem 0 0 0;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: #555555;
 }
 
 /**
@@ -1663,7 +1663,7 @@ header .logo a {
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: #555555;
 	font-size: 1.5rem;
 	line-height: 1;
 }
@@ -1815,7 +1815,7 @@ header .logo a {
 .slideshowpage-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: #555555;
 	font-size: 1.5rem;
 	line-height: 1;
 }
@@ -2231,7 +2231,7 @@ width:auto;
 #presentation .timeline-header p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
-	color: #888888;
+	color: #555555;
 }
 #presentation .timeline-content {
 	margin-left: 35%;
@@ -2866,7 +2866,7 @@ width:auto;
 	color: #313131;
 }
 .services-list .desc {
-	color: #888888;
+	color: #555555;
 }
 
 /* pagination */
