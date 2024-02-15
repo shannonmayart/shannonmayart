@@ -1537,6 +1537,15 @@ header .logo a {
  * Intro
  * --------------------------------------------------------------- 
  */
+
+@media (hover: none) {
+  #intro {
+	
+	background-attachment:scroll;
+	
+}
+}
+
 @media only screen and (max-width:1024px) {
 	.intro-content h1 {
 		font-size: 7.6rem;
@@ -1547,11 +1556,7 @@ header .logo a {
 	.intro-social li {
 		margin: 0 15px;
 	}
-    #intro {
-	
-	background-attachment:scroll;
-	
-}
+    
 }
 @media only screen and (max-width:768px) {
 	#intro {
