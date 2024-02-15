@@ -1350,7 +1350,7 @@ header .logo a {
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment: fixed;}
+	background-attachment:scroll;}
             
             15%   {background:url(../images/intro-bg.webp) no-repeat center bottom;
             -webkit-background-size: cover;
@@ -1361,38 +1361,38 @@ header .logo a {
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment: fixed;}
+	background-attachment:scroll;}
             
             35%   {background:url(../images/intro-bg2.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment: fixed;}
+	background-attachment:scroll;}
             40%   {background:url(../images/intro-bg4.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment: fixed;}
+	background-attachment:scroll;}
             55%   {background:url(../images/intro-bg4.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment: fixed;}
+	background-attachment:scroll;}
             60%   {background:url(../images/intro-bg7.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment: fixed;}
+	background-attachment:scroll;}
              75%   {background:url(../images/intro-bg7.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment: fixed;}
+	background-attachment:scroll;}
              80%   {background:url(../images/intro-bg.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment: fixed;}
+	background-attachment:scroll;}
         }
 .intro-overlay {
 	position: absolute;
