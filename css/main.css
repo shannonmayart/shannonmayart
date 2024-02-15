@@ -1325,7 +1325,7 @@ header .logo a {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment:scroll;
+	background-attachment:fixed;
 	width: 100%;
 	height: 100%;
 	min-height: 720px;
@@ -1350,49 +1350,49 @@ header .logo a {
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment:scroll;}
+	}
             
             15%   {background:url(../images/intro-bg.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment: scroll;}
+	}
             20%   {background:url(../images/intro-bg2.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment:scroll;}
+	}
             
             35%   {background:url(../images/intro-bg2.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment:scroll;}
+	}
             40%   {background:url(../images/intro-bg4.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment:scroll;}
+	}
             55%   {background:url(../images/intro-bg4.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment:scroll;}
+	}
             60%   {background:url(../images/intro-bg7.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment:scroll;}
+	}
              75%   {background:url(../images/intro-bg7.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment:scroll;}
+	}
              80%   {background:url(../images/intro-bg.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-attachment:scroll;}
+	}
         }
 .intro-overlay {
 	position: absolute;
@@ -1547,6 +1547,11 @@ header .logo a {
 	.intro-social li {
 		margin: 0 15px;
 	}
+    #intro {
+	
+	background-attachment:scroll;
+	
+}
 }
 @media only screen and (max-width:768px) {
 	#intro {
