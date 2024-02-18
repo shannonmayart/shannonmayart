@@ -1332,7 +1332,9 @@ header .logo a {
 	display: table;
 	position: relative;
 	text-align: center;
-     animation: introchange 40s infinite;
+     animation: introchange 30s infinite;
+    background-position: center;
+    background-repeat:no-repeat;
 }
 
 #intro::after {
@@ -1341,7 +1343,7 @@ header .logo a {
   height: 0;
   overflow: hidden;
   z-index: -1;
-  content: url(../images/intro-bg.webp) url(../images/intro-bg2.webp) url(../images/intro-bg4.webp) url(../images/intro-bg7.webp);
+  content: url(../images/intro-bg.webp) url(../images/intro-bg2.webp) url(../images/intro-bg4.webp) ;
 }
 
 @keyframes introchange
@@ -1351,58 +1353,62 @@ header .logo a {
 	-moz-background-size: cover;
 	background-size: cover;
                 background-attachment:fixed;
+                 background-position: center;
+    background-repeat:no-repeat;
 	}
             
-            15%   {background:url(../images/intro-bg.webp) no-repeat center bottom;
+            28%   {background:url(../images/intro-bg.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
                 background-attachment:fixed;
+                 background-position: center;
+    background-repeat:no-repeat;
 	}
-            20%   {background:url(../images/intro-bg2.webp) no-repeat center bottom;
+            33%   {background:url(../images/intro-bg2.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
                 background-attachment:fixed;
+                 background-position: center;
+    background-repeat:no-repeat;
 	}
             
-            36%   {background:url(../images/intro-bg2.webp) no-repeat center bottom;
+            61%   {background:url(../images/intro-bg2.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
                 background-attachment:fixed;
+                 background-position: center;
+    background-repeat:no-repeat;
 	}
-            40%   {background:url(../images/intro-bg4.webp) no-repeat center bottom;
+            66%   {background:url(../images/intro-bg4.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
                 background-attachment:fixed;
+                 background-position: center;
+    background-repeat:no-repeat;
 	}
-            55%   {background:url(../images/intro-bg4.webp) no-repeat center bottom;
+            94%   {background:url(../images/intro-bg4.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
                 background-attachment:fixed;
+                 background-position: center;
+    background-repeat:no-repeat;
 	}
-            60%   {background:url(../images/intro-bg7.webp) no-repeat center bottom;
-            -webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-                background-attachment:fixed;
-	}
-             75%   {background:url(../images/intro-bg7.webp) no-repeat center bottom;
+          
+             100%   {background:url(../images/intro-bg.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
                  background-attachment:fixed;
-	}
-             80%   {background:url(../images/intro-bg.webp) no-repeat center bottom;
-            -webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-                 background-attachment:fixed;
+                  background-position: center;
+    background-repeat:no-repeat;
 	}
         }
+
 .intro-overlay {
 	position: absolute;
 	top: 0;
@@ -1552,63 +1558,68 @@ header .logo a {
     #intro{background-attachment: scroll;}
  @keyframes introchange
         {
+             {
             0%   {background:url(../images/intro-bg.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
                 background-attachment:scroll;
+                 background-position: center;
+    background-repeat:no-repeat;
 	}
             
-            15%   {background:url(../images/intro-bg.webp) no-repeat center bottom;
+            28%   {background:url(../images/intro-bg.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
                 background-attachment:scroll;
+                 background-position: center;
+    background-repeat:no-repeat;
 	}
-            20%   {background:url(../images/intro-bg2.webp) no-repeat center bottom;
+            33%   {background:url(../images/intro-bg2.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
                 background-attachment:scroll;
+                 background-position: center;
+    background-repeat:no-repeat;
 	}
             
-            36%   {background:url(../images/intro-bg2.webp) no-repeat center bottom;
+            61%   {background:url(../images/intro-bg2.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
                 background-attachment:scroll;
+                 background-position: center;
+    background-repeat:no-repeat;
 	}
-            40%   {background:url(../images/intro-bg4.webp) no-repeat center bottom;
+            66%   {background:url(../images/intro-bg4.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
                 background-attachment:scroll;
+                 background-position: center;
+    background-repeat:no-repeat;
 	}
-            55%   {background:url(../images/intro-bg4.webp) no-repeat center bottom;
+            94%   {background:url(../images/intro-bg4.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
                 background-attachment:scroll;
+                 background-position: center;
+    background-repeat:no-repeat;
 	}
-            60%   {background:url(../images/intro-bg7.webp) no-repeat center bottom;
-            -webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-                background-attachment:scroll;
-	}
-             75%   {background:url(../images/intro-bg7.webp) no-repeat center bottom;
+          
+             100%   {background:url(../images/intro-bg.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
                  background-attachment:scroll;
-	}
-             80%   {background:url(../images/intro-bg.webp) no-repeat center bottom;
-            -webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-                 background-attachment:scroll;
+                  background-position: center;
+    background-repeat:no-repeat;
 	}
         }
+}
 }
 
 @media only screen and (max-width:1024px) {
