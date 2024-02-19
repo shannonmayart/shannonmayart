@@ -1558,7 +1558,7 @@ header .logo a {
     #intro{background-attachment: scroll;}
  @keyframes introchange
         {
-             {
+             
             0%   {background:url(../images/intro-bg.webp) no-repeat center bottom;
             -webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1618,7 +1618,7 @@ header .logo a {
                   background-position: center;
     background-repeat:no-repeat;
 	}
-        }
+        
 }
 }
 
