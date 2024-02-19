@@ -673,7 +673,7 @@ input[type="button"] {
 	background: #d8d8d8;
 	color: #313131;
 	text-decoration: none;
-	/*cursor: pointer;*/
+	cursor: pointer;
 	text-align: center;
 	white-space: nowrap;
 	border: none;
@@ -684,7 +684,8 @@ input[type="button"] {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.button:hover,
+
+    .button:hover,
 a.button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -698,7 +699,7 @@ input[type="button"]:focus {
 	background: #bebebe;
 	color: #000000;
 	outline: 0;
-}
+    }
 .button.button-primary,
 a.button.button-primary,
 button.button-primary,
@@ -708,7 +709,8 @@ input[type="button"].button-primary {
 	background: #313131;
 	color: #FFFFFF;
 }
-.button.button-primary:hover,
+
+    .button.button-primary:hover,
 a.button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -720,7 +722,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
 	background: #1f1f1f;
-}
+    }
+
 button.full-width, .button.full-width {
 	width: 100%;
 	margin-right: 0;
@@ -2556,6 +2559,10 @@ width:auto;
  * portfolio
  * ------------------------------------------------------------------- 
  */
+
+@media (hover: none) {
+    
+}
 @media only screen and (max-width:1024px) {
 	#portfolio .folio-title {
 		font-size: 2.5rem;
@@ -2647,17 +2654,7 @@ width:auto;
 	letter-spacing: .1rem;
 	color: rgba(255, 255, 255, 0.6);
 }
-#portfolio2 .folio-item:hover .overlay {
-	background: rgba(0, 0, 0, 0.8);
-}
-#portfolio2 .folio-item:hover .folio-item-cell {
-	left: 0;
-}
-#portfolio2 .folio-item:hover img {
-	-webkit-transform: scale(1.05);
-	-ms-transform: scale(1.05);
-	transform: scale(1.05);
-}
+
 
 /**
  * responsive:
