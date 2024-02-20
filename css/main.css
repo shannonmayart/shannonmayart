@@ -74,7 +74,7 @@ a, a:visited {
 a:hover, a:focus, a:active {
 	/*color: #91aaff;*/
     color: #91aaff;
-	outline: 0;
+	/*outline: 0;*/
 }
 
 /*a:hover{display:none;}
