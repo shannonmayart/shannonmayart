@@ -40,7 +40,7 @@ html, body {
 	height: 100%;
 }
 body {
-	background: #151515;
+	background: #101010;
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
@@ -1705,8 +1705,8 @@ button.stroke:hover, .button.stroke:hover {
  */
 #about {
 	background: #f0f3ff;
-	padding-top: 12rem;
-	padding-bottom: 15rem;
+	padding-top: 6rem;
+	padding-bottom: 12rem;
 }
 #about .section-intro {
 	margin-bottom: 3rem;
@@ -2454,7 +2454,7 @@ width:auto;
  */
 #portfolio {
 	background: #FFFFFF;
-	padding-top: 8rem;
+	padding-top: 6rem;
 	padding-bottom: 12rem;
     
 }
@@ -3080,8 +3080,8 @@ width:auto;
  * ------------------------------------------------------------------- 
  */
 #contact {
-	background: #151515;
-	padding-top: 12rem;
+	background: #101010;
+	padding-top: 6rem;
 	padding-bottom: 7.2rem;
 }
 #contact .section-intro h1 {
