@@ -1520,8 +1520,9 @@ button.stroke:hover, .button.stroke:hover {
 	border-color: #ffffff;
 	height: 6rem !important;
 	line-height: 5.4rem !important;
-	padding: 0 3.5rem 0 3rem !important;
-	margin-top: .6rem;
+	padding: 0 2rem 0 2rem !important;
+    margin-left:1rem;
+    margin-right:1rem;
 	font-size: 1.3rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
@@ -1529,7 +1530,7 @@ button.stroke:hover, .button.stroke:hover {
 .intro-content .button:hover, .intro-content .button:focus {
 	border-color: #91aaff;
 }
-.intro-content .button::after {
+/*.intro-content .button::after {
 	display: inline-block;
 	content: "\f107";
 	font-family: fontAwesome;
@@ -1538,7 +1539,7 @@ button.stroke:hover, .button.stroke:hover {
 	text-align: center;
 	position: relative;
 	left: 1.2rem;
-}
+}*/
 
 .intro-social {
 	display: block;
