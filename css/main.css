@@ -1304,7 +1304,13 @@ header .logo a {
     .main-navigation{
         width:300px;
         border-top-right-radius: 1em;
-    }}
+    }
+
+button.stroke:hover, .button.stroke:hover {
+	border: 3px solid #313131;
+	color: #91aaff;
+}
+}
 @media only screen and (max-width:768px) {
 	header .top-bar {
 		left: 0px;
