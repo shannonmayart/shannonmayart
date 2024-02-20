@@ -1082,7 +1082,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 @media only screen and (max-width:600px) {
 	.section-intro h1 {
-		font-size: 2.6rem;
+		font-size: 2.5rem;
 	}
 	.section-intro h5 {
 		font-size: 1.5rem;
@@ -2469,6 +2469,12 @@ width:auto;
 }
 
 .noHover{}
+
+.sorter{
+    padding:0 2rem !important;
+    margin:0.5rem 0.5rem !important;
+}
+
 
 .active, .sorter.active{
     background-color:#91aaff !important;
