@@ -1562,7 +1562,7 @@ header .logo a {
  * --------------------------------------------------------------- 
  */
 
-@media (hover: none) and (min-width: 1024px){
+@media (hover:none) and (min-width:760px){
     
     #intro{background-attachment: scroll;}
  @keyframes introchange
