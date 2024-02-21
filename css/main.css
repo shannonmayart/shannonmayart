@@ -71,11 +71,7 @@ a, a:visited {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-a:hover, a:focus, a:active {
-	/*color: #91aaff;*/
-    color: #91aaff;
-	/*outline: 0;*/
-}
+
 
 /*a:hover{display:none;}
 
@@ -2573,8 +2569,12 @@ width:auto;
  * ------------------------------------------------------------------- 
  */
 
-@media (hover: none) {
-    
+@media (min-width:1024px) {
+  a:hover {
+	/*color: #91aaff;*/
+    color: #91aaff;
+	/*outline: 0;*/
+}  
 }
 @media only screen and (max-width:1024px) {
 	#portfolio .folio-title {
