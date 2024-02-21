@@ -681,21 +681,6 @@ input[type="button"] {
 	transition: all 0.3s ease-in-out;
 }
 
-    .button:hover,
-a.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.button:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-	background: #bebebe;
-	color: #000000;
-	outline: 0;
-    }
 .button.button-primary,
 a.button.button-primary,
 button.button-primary,
@@ -706,19 +691,7 @@ input[type="button"].button-primary {
 	color: #FFFFFF;
 }
 
-    .button.button-primary:hover,
-a.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
-	background: #1f1f1f;
-    }
+    
 
 button.full-width, .button.full-width {
 	width: 100%;
@@ -745,10 +718,7 @@ button.stroke.medium, .button.stroke.medium {
 button.stroke.large, .button.stroke.large {
 	line-height: 5.4rem !important;
 }
-button.stroke:hover, .button.stroke:hover {
-	border: 3px solid #91aaff;
-	color: #91aaff;
-}
+
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
@@ -1302,10 +1272,7 @@ header .logo a {
         border-top-right-radius: 1em;
     }
 
-button.stroke:hover, .button.stroke:hover {
-	border: 3px solid #313131;
-	color: #91aaff;
-}
+
 }
 @media only screen and (max-width:768px) {
 	header .top-bar {
@@ -2574,7 +2541,42 @@ width:auto;
 	/*color: #91aaff;*/
     color: #91aaff;
 	/*outline: 0;*/
-}  
+} 
+    .button:hover,
+a.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+	background: #bebebe;
+	color: #000000;
+	outline: 0;
+    }
+
+
+    .button.button-primary:hover,
+a.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+	background: #1f1f1f;
+    }
+    
+    button.stroke:hover, .button.stroke:hover {
+	border: 3px solid #91aaff;
+	color: #91aaff;
+}
 }
 @media only screen and (max-width:1024px) {
 	#portfolio .folio-title {
