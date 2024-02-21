@@ -1161,7 +1161,7 @@ var btnContainer = document.getElementById("myBtnContainer");
 var btns = document.getElementsByClassName("sorter");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(event){
-      event.preventDefault();
+     // event.preventDefault();
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
