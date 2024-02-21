@@ -1490,9 +1490,7 @@ header .logo a {
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
-.intro-content .button:hover, .intro-content .button:focus {
-	border-color: #91aaff;
-}
+
 /*.intro-content .button::after {
 	display: inline-block;
 	content: "\f107";
@@ -1600,6 +1598,9 @@ header .logo a {
         
 }
 }
+@media only screen and (min-width:1024px){.intro-content .button:hover, .intro-content .button:focus {
+	border-color: #91aaff;
+}}
 
 @media only screen and (max-width:1024px) {
 	.intro-content h1 {
