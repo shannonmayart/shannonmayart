@@ -3426,8 +3426,8 @@ footer .copyright span:last-child::after {
 	font-size: 1.6rem;
 	line-height: inherit;
 }
+@media only screen and (min-width:1024px){
 #go-top a:hover {
 	background: #000000;
-}
+    }}
 
-/*# sourceMappingURL=main.css.map */
