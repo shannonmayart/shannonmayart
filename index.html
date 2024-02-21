@@ -1110,9 +1110,9 @@
      <script>filterSelection("all") ;
          
          $("#all").on('click', function() {
-    // ...
+    console.log("Click Event triggered")
 });
-        
+      
         /*----------------------------------------------------- */
   	/* search filter
    ------------------------------------------------------- */  
@@ -1160,7 +1160,8 @@ function w3RemoveClass(element, name) {
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = document.getElementsByClassName("sorter");
 for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
+  btns[i].addEventListener("click", function(event){
+      event.preventDefault();
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
